@@ -15,7 +15,7 @@
 
  ##  API URLS
 
- The [Postman Collection](/Blog API.postman_collection.json) file is present in this repo you can use that to know about the urls.
+ The [Postman Collection](https://github.com/aksh45/BASIC-BLOG-API/blob/main/Blog%20API.postman_collection.json) file is present in this repo you can use that to know about the urls.
 
  ## Basic Workflow of the API
 
