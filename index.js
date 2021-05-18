@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true}));
 app.use('/blog',blog);
 app.use('/comment',comment);
 app.get('*',function(req, res){
-    res.status(400).send('Sorry this Page does not exist');
+    res.status(404).json({message:'Sorry this Page does not exist'});
   });
 mongoose.connect(process.env.DB_CONNECT,{ useNewUrlParser: true,useUnifiedTopology: true },() =>{
 });
